@@ -129,7 +129,7 @@ export url='http://t.jwsc.eu.org' \
 - **Alpine Linux 虚拟机**：强烈建议使用 Alpine 镜像以获得最佳兼容性
 ```sh
 # 安装必要依赖
-apk add --no-cache wget openrc ca-certificates tzdata nftables iproute2 dcron
+apk add --no-cache wget openrc ca-certificates tzdata nftables iproute2
 
 # 执行安装命令
 export url='https://testingcf.jsdelivr.net/gh/juewuy/ShellCrash@master' \
